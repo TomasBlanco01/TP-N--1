@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.txt {
+    text-align: center;
+}
+
+.img {
+    margin: 50px;
+}
+
+section{
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+article {
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+main {
+    
+    background-color: #f0f0f0;
+}
