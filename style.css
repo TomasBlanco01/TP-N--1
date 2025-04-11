@@ -59,3 +59,28 @@ main {
     justify-content: center;
     gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .img {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        gap: 10px;
+    }
+    
+    .txt {
+        padding: 10px 0;
+    }
+    
+    article {
+        padding: 3px;
+    }
+}
